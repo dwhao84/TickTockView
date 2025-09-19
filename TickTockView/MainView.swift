@@ -36,7 +36,6 @@ struct TickTockView: View {
             
             // 倒數計時文字
             Text(remaining, format: .number)
-                .id(remaining) // 每次更新換新 View
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundStyle(.white)
